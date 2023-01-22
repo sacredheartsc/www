@@ -1,0 +1,9 @@
+from: markdown+fenced_divs+bracketed_spans+smart
+to: html5
+standalone: true
+html-q-tags: true
+
+css:
+  - /css/style.css
+
+metadata:

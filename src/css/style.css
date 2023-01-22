@@ -1,0 +1,89 @@
+body {
+  color: #333;
+  margin: 1em auto 2em auto;
+  max-width: 43em;
+  padding: 0 1em;
+  font-family: "PT Sans", "Myriad Pro", "Trebuchet MS", Helvetica, sans-serif;
+}
+
+a {
+  color: #0074D9
+}
+
+a:visited {
+  color: #941352
+}
+
+header .subtitle {
+  margin-top: -1em;
+  margin-bottom: 21.44px;
+}
+
+.bloglist p:nth-of-type(2) {
+  margin-top: -8px;
+}
+
+header .date {
+  font-style: italic;
+  margin-bottom: 21.44px;
+}
+
+footer .date {
+  float: right;
+}
+
+footer {
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 32px;
+}
+
+.logo {
+  float: right;
+}
+
+@media only screen and (max-device-width : 667px) {
+  .logo {
+    max-width: 66px;
+  }
+
+  footer .date {
+    float: none;
+  }
+}
+
+@media print {
+  .navbar {
+    display: none !important;
+  }
+}
+
+pre {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: monospace;
+  line-height: 1.2;
+  padding: 8px;
+  white-space: pre;
+  word-wrap: normal;
+}
+
+.sourceCode {
+  overflow: auto;
+}
+
+details {
+  font-size: 87.5%;
+  margin: 0 1em;
+}
+
+.redacted {
+  background: black;
+  color: black;
+  cursor: default;
+}
+
+.right {
+  float: right;
+}

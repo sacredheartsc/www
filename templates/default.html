@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+$for(author-meta)$
+  <meta name="author" content="$author-meta$">
+$endfor$
+$if(date-meta)$
+  <meta name="dcterms.date" content="$date-meta$">
+$endif$
+$if(description)$
+  <meta name="description" content="$description$">
+$endif$
+$if(keywords)$
+  <meta name="keywords" content="$for(keywords)$$keywords$$sep$, $endfor$">
+$endif$
+  <title>$if(title-prefix)$$title-prefix$ – $endif$$title$</title>
+  <link rel="alternate" type="application/rss+xml" href="$feed$">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#eea35f">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#eea35f">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+$if(quotes)$
+    q { quotes: "“" "”" "‘" "’"; }
+$endif$
+  </style>
+$if(highlighting-css)$
+  <style>
+$highlighting-css$
+  </style>
+$endif$
+$for(css)$
+  <link rel="stylesheet" href="$css$">
+$endfor$
+$for(header-includes)$
+  $header-includes$
+$endfor$
+</head>
+<body>
+$for(include-before)$
+$include-before$
+$endfor$
+
+<nav class="navbar">
+  [<a href="/">home</a>]&nbsp;
+  [<a href="/blog/">blog</a>]&nbsp;
+  [<a href="https://git.sacredheartsc.com/">git</a>]&nbsp;
+  [<a href="mailto:stonewall@sacredheartsc.com">email</a>]&nbsp;
+  [<a href="$feed$">rss</a>]
+  <span style="float: right">JMJ</span>
+<hr>
+</nav>
+
+<header>
+$if(heading)$
+  <h1 class="title">$heading$</h1>
+$else$
+  <h1 class="title">$title$</h1>
+$endif$
+$if(subtitle)$
+  <p class="subtitle">$subtitle$</p>
+$endif$
+$if(date)$
+<p class="date">$date$</p>
+$endif$
+</header>
+
+$if(toc)$
+<nav id="$idprefix$toc" role="doc-toc">
+$table-of-contents$
+</nav>
+$endif$
+
+$body$
+
+$for(include-after)$
+$include-after$
+$endfor$
+</body>
+</html>
