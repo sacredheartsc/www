@@ -17,7 +17,7 @@ First, install the `pip` requirements:
 
     make install
 
-You'll want to edit the [Makefile](/www/tree/Makefile) to set your site URL,
+You'll want to edit the [Makefile](Makefile) to set your site URL,
 RSS feed title, etc.
 
 Then, start writing markdown documents in the `src` directory. You can use
@@ -25,9 +25,9 @@ whatever naming convention and directory structure you like. Files ending in
 `.md` will be converted to `.html` with the same path.
 
 The `src/blog` directory is special. Markdown files in this directory are
-used to populate the front-page blog listing in [index.md](/www/tree/src/index.md).
+used to populate the front-page blog listing in [index.md](src/index.md).
 Before pandoc converts this file to HTML, the special string `__BLOG_LIST__`
-is replaced with the output of [bloglist.py](/www/tree/scripts/bloglist.py).
+is replaced with the output of [bloglist.py](scripts/bloglist.py).
 This Python script produces a date-sorted markdown list of all your blog posts.
 
 Each markdown file can have YAML frontmatter with the following metadata:
@@ -41,7 +41,7 @@ Each markdown file can have YAML frontmatter with the following metadata:
     draft: if set, hides the post from the blog listing
     ---
 
-You can change the resulting HTML by modifying the [template](/www/tree/templates/default.html).
+You can change the resulting HTML by modifying the [template](templates/default.html).
 Changing the format of the blog listing requires modifying the Python script.
 
 Build the website by using the default target:
