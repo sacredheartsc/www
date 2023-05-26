@@ -393,8 +393,8 @@ convention you prefer.
 The following example has three extensions: two dedicated VoIP
 handsets, and one Android softphone. Note that if you want
 to use a softphone outside of your local network, you'll need to either open
-your Asterisk instance to the world (strongly discouraged) or set up some kind
-of VPN.
+your Asterisk instance to the world (not recommended, unless you know what you're doing)
+or set up some kind of VPN.
 
 ```lisp
 ; /etc/asterisk/pjsip_wizard.conf
