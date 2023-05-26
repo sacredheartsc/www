@@ -228,7 +228,7 @@ I can personally recommend two providers.
 
 1. [VOIP.ms](https://voip.ms/en/invite/MzU5Nzc4) is an inexpensive provider with 
    servers in the USA, Canada, and western Europe. You can get "unlimited"
-   calling with a single DID for about $5 a month, or less if you pay by the
+   inbound calls with a single DID for about $5 a month, or less if you pay by the
    minute.
 
    VOIP.ms also supports call encryption via TLS/SRTP, which is nice.
