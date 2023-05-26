@@ -14,6 +14,15 @@ a:visited {
   color: #941352
 }
 
+blockquote {
+  border-left: 3px solid #ccc;
+  padding-left: 10px;
+}
+
+dt {
+  font-weight: bold;
+}
+
 header .subtitle {
   margin-top: -1em;
   margin-bottom: 21.44px;
