@@ -18,7 +18,8 @@ and old-school sysadminning.
 - Contact:
   [Email](mailto:stonewall@sacredheartsc.com){title="stonewall@sacredheartsc.com"} |
   [XMPP](xmpp:stonewall@sacredheartsc.com?message){title="stonewall@sacredheartsc.com"} |
-  [IRC](ircs://irc.libera.chat/stonewall,isnick){title="stonewall on irc.libera.chat"}
+  [IRC](ircs://irc.libera.chat/stonewall,isnick){title="stonewall on irc.libera.chat"} |
+  [Twitter](https://twitter.com/scstonewall)
 - GPG: [0x6DF66CCB](/gpg.asc)
 - Code:
   [Git](https://git.sacredheartsc.com/) |
