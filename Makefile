@@ -96,6 +96,15 @@ $(OUTPUT_DIR)/%: $(SOURCE_DIR)/%
 install:
 	pip install -r requirements.txt
 
+.PHONY: post
+post:
+	@test $${NAME?Post URL component must be set in variable NAME.}
+ifeq (,$(wildcard $(SOURCE_DIR)/$(BLOG_DIR)/$(NAME)/index.md))
+	mkdir -p "$(SOURCE_DIR)/$(BLOG_DIR)/$(NAME)"
+	printf -- '---\ntitle: %s\ndate: %s\nsubtitle:\ndescription: \n---\n\n\n' "$(NAME)" "$$(date '+%B %d, %Y')" > $(SOURCE_DIR)/$(BLOG_DIR)/$(NAME)/index.md
+endif
+	$(EDITOR) $(SOURCE_DIR)/$(BLOG_DIR)/$(NAME)/index.md
+
 serve: public
 	cd $(OUTPUT_DIR) && python3 -m http.server
 
