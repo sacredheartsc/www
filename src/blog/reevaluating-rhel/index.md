@@ -165,6 +165,6 @@ manages to emerge as some kind of de-facto "almost-RHEL" with a long support cyc
 that's what I'll stick with. Otherwise, I see Debian in my future.
 
 <aside>
-*P.S. I wrote this article on the Feast of Saint John the Baptist, the patron saint of
+*P.S. I wrote this article on the feast of the Nativity of Saint John the Baptist, patron of
 the Diocese of Charleston and of unborn children. Saint John the Baptist, pray for us!*
 </aside>
