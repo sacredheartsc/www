@@ -69,7 +69,7 @@ a strategic omission?).
 
 To me, there's three major downsides to sticking with a RHEL-derivative:
 
-- What's stopping RHEL from doing another rug-pull that thwarts whatever
+- What's stopping RedHat from doing another rug-pull that thwarts whatever
   future workarounds that Rocky, Alma, *et al.* are using to grab the source RPMs?
 
 - This may be the final straw that causes various FOSS projects to drop RHEL
