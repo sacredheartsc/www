@@ -174,9 +174,9 @@ In the short term, I'll keep my eyes on the RHEL situation and continue maintain
 [sacredheart-selfhosted](https://github.com/sacredheartsc/selfhosted) as a
 Rocky Linux-based framework.
 
-I don't really care about bug-for-bug compatibility with RHEL. If Rocky or Alma
-manages to emerge as some kind of de-facto "almost-RHEL" with a long support cycle,
-that's what I'll stick with. Otherwise, I see Debian in my future.
+I don't really care about bug-for-bug compatibility with RHEL. If Rocky, Alma, or
+Stream manages to emerge as some kind of community-favorite "almost-RHEL" with a
+longish support cycle, that's what I'll stick with. Otherwise, I see Debian in my future.
 
 <aside>
 *P.S. I wrote this article on the feast of the Nativity of Saint John the Baptist, patron of
