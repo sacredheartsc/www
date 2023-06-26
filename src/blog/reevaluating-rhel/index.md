@@ -97,6 +97,20 @@ Won't work for me. I currently have no fewer than 37 Rocky Linux installs (mostl
 virtual machines), but RedHat's [free tier](https://developers.redhat.com/articles/faqs-no-cost-red-hat-enterprise-linux)
 only gives you a license for 16 hosts.
 
+### CentOS Stream?
+
+My understanding of [CentOS Stream](https://www.centos.org/centos-stream/) is that it's
+essentially a beta branch for the next point-release of RHEL. I'd like a distro where I
+run automatic updates and not concern myself with stuff breaking. It doesn't *sound*
+like this is the case for Stream. Am I wrong?
+
+RedHat [asserts](https://blog.centos.org/2020/12/centos-stream-is-continuous-delivery/) that
+"To the untrained eye, CentOS Stream is already as stable as RHEL." If that is really the case,
+why did so many people jump to Rocky/Alma? Spite? (This is not sarcasm--I'm geniunely curious.)
+
+CentOS Stream gets security updates through the RHEL "full support" phase (5.5 years). If Stream
+is truly "as good as RHEL, but only for 5 years," then I'd consider this a viable option.
+
 ### Ubuntu LTS?
 
 Hard pass. `/dev/null` will soon be provided by a Snap package at the rate things are going.
