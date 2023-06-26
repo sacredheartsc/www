@@ -16,11 +16,10 @@ personal projects and interests, which include digital privacy, self-hosting,
 and old-school sysadminning.
 
 - [Email](mailto:stonewall@sacredheartsc.com){title="stonewall@sacredheartsc.com"} |
+  [Mastodon](https://mastodon.sacredheartsc.com/@stonewall){title="@stonewall@sacredheartsc.com"} |
   [XMPP](xmpp:stonewall@sacredheartsc.com?message){title="stonewall@sacredheartsc.com"} |
   [Matrix](https://matrix.to/#/@stonewall:sacredheartsc.com){title="@stonewall:sacredheartsc.com"} |
-  [IRC](ircs://irc.libera.chat/stonewall,isnick){title="stonewall on irc.libera.chat"} |
-  [Mastodon](https://mastodon.sacredheartsc.com/@stonewall){title="@stonewall@sacredheartsc.com"} |
-  [Twitter](https://twitter.com/scstonewall){title="@scstonewall"}
+  [IRC](ircs://irc.libera.chat/stonewall,isnick){title="stonewall on irc.libera.chat"}
 - GPG: [0x6DF66CCB](/gpg.asc)
 - Code:
   [Git](https://git.sacredheartsc.com/) |
