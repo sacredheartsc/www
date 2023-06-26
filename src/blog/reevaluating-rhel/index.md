@@ -26,9 +26,8 @@ as I honestly find such things tedious and boring. The Software Freedom Conserva
 has written a detailed analysis of the situation [here](https://sfconservancy.org/blog/2023/jun/23/rhel-gpl-analysis/).
 
 To summarize: RedHat almost certainly has the right to do this, even if it is
-against the spirit of most free software licenses and unprecedented in the FOSS
-community until now. At the moment, I'm more concerned about how this will affect
-my own projects.
+against the spirit of most free software licenses. At the moment, I'm more
+concerned about how this will affect my own projects.
 
 ## I'm heavily invested in Rocky Linux.
 
@@ -76,8 +75,7 @@ To me, there's three major downsides to sticking with a RHEL-derivative:
   support altogether ([Exhibit A](https://www.jeffgeerling.com/blog/2023/removing-official-support-red-hat-enterprise-linux)). 
 
 - By sticking with a RHEL-based distro, I'm giving my implicit support to RedHat's
-  mistreatment of the wider FOSS community. Feels gross--maybe it's just time to
-  move on?
+  alleged mistreatment of the wider FOSS community. Maybe it's just time to move on?
 
 First, **immediately after** everyone got done migrating the CentOS 8, RedHat
 pulled the plug on CentOS.
