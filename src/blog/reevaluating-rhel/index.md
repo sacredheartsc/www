@@ -106,7 +106,7 @@ like this is the case for Stream. Am I wrong?
 
 RedHat [asserts](https://blog.centos.org/2020/12/centos-stream-is-continuous-delivery/) that
 "To the untrained eye, CentOS Stream is already as stable as RHEL." If that is really the case,
-why did so many people jump to Rocky/Alma? Spite? (This is not sarcasm--I'm geniunely curious.)
+why did so many people jump to Rocky/Alma? Spite? (This is not sarcasm--I'm genuinely curious.)
 
 CentOS Stream gets security updates through the RHEL "full support" phase (5.5 years). If Stream
 is truly "as good as RHEL, but only for 5 years," then I'd consider this a viable option.
